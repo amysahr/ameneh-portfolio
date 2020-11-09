@@ -1,11 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
+import image from "./Image.jpeg";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={image} className="App-logo" alt="logo" />
         <p>
           <h1>Welcome to My Portfolio</h1>
         </p>
@@ -21,5 +22,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
